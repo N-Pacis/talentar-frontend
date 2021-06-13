@@ -1,0 +1,33 @@
+<nav class="nav">
+   <div class="top-bar col-sm-12">
+     <div class="col-sm-3 app-description">
+         <h2 class="app-name">Talentar</h2>
+         <p class="text-light greeting">GOOD MORNING, <span>PACIS</span></p>
+     </div>
+     <div class="input-group col-sm-3">
+            <input id="search-input" type="search" id="form1" class="form-control col-md-5" placeholder="Search"/>
+     </div>
+     <div class="profile-notifications row">
+         <i class="bi bi-bell col-sm-3"></i>
+       <button type="button" data-toggle="collapse" data-target="#profileInfo" aria-expanded="false" aria-controls="profileInfo">
+             <img class="profilePicture" src="https://cutewallpaper.org/21/hd-profile-pic/WhatsApp-DP-and-Profile-Pictures-365-BEST-and-LATEST-HD-Pics.jpg" alt="profilePicture">
+       </button>
+       <ul id="profileInfo" class="collapse profile-info">
+            <li><a [routerLink]="['/profile']">Profile</a></li>
+            <li><a [routerLink]="['/settings']">Settings</a></li>
+            <li><a [routerLink]="['/logout']">Logout</a></li>
+       </ul>
+     </div>
+   </div>
+  <div class="low-bar">
+      <ul class="navbar-links">
+          <li><a [routerLink]="['/all']" routerLinkActive="active">All</a></li>
+          <li><a [routerLink]="['/photography']" routerLinkActive="active">Photography</a></li>
+          <li><a [routerLink]="['/art']" routerLinkActive="active">Art</a></li>
+          <li><a [routerLink]="['/design']" routerLinkActive="active">Design</a></li>
+          <li><a [routerLink]="['/singing']" routerLinkActive="active">Singing</a></li>
+          <li><a [routerLink]="['/competitions']" routerLinkActive="active">Competitions</a></li>
+      </ul>
+      <button class="btn">Following</button>
+  </div>
+</nav>
