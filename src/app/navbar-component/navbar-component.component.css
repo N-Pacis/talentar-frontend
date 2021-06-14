@@ -59,6 +59,7 @@
   margin-right: 0%;
   color:#fff;
   font-size: 28px;
+  cursor: pointer;
 }
 .low-bar{
   display: flex;
@@ -77,9 +78,12 @@
 .low-bar>ul>li>a{
   color: #fff;
   font-size: 14px;
+  padding: 7% 7% !important;
+  border-radius: 5px;
 }
 .active{
-  border: 1px solid var(--mainGreen)
+  border: 1px solid #46A701;
+  box-shadow: 1px 1px 11px rgba(70, 167, 1, 0.27);
 }
 .low-bar>button{
    width: 6%;
@@ -89,8 +93,10 @@
   font-size: 13px;
   padding-left: 0% !important;
    margin-left: 8% !important;
-   background-color: #366514;
    border: 1px solid #46A701;
+}
+.fill{
+  background-color: #366514;
 }
 
 .profile-info{

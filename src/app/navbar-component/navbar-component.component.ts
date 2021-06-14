@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponentComponent implements OnInit {
 
+  following:boolean = false;
+
+  changeFollowing(){
+      this.following = !this.following;
+  }
   constructor() { }
 
   ngOnInit(): void {

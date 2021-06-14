@@ -28,6 +28,6 @@
           <li><a [routerLink]="['/singing']" routerLinkActive="active">Singing</a></li>
           <li><a [routerLink]="['/competitions']" routerLinkActive="active">Competitions</a></li>
       </ul>
-      <button class="btn">Following</button>
+      <button class="btn" [class.fill]="following" (click)="changeFollowing()">Following</button>
   </div>
 </nav>
