@@ -22,7 +22,7 @@
 
 .app-name{
    color: var(--mainGreen);
-  font-family: o;
+  font-family: 'o','O PTILibertyFoundry';
   font-size:60px;
 }
 .greeting{
