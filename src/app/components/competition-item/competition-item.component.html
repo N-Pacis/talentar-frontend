@@ -1,0 +1,11 @@
+<div class="card">
+  <img class="card-img-top" [src]="competitionImage" [alt]="competitionName">
+  <div class="card-body">
+    <h5 class="card-title">{{competitionName}}</h5>
+    <p class="card-text"><i class="fas fa-users"></i>{{members}}</p>
+    <button #membershipStatus class="btn" [class]="status" (click)="changeStatus(membershipStatus)">
+        <i class="bi" [class]="svgClass"></i>
+        {{status}}
+    </button>
+  </div>
+</div>
