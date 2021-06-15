@@ -3,12 +3,9 @@
   <div class="card-body">
     <h5 class="card-title">{{competitionName}}</h5>
     <p class="card-text"><i class="fas fa-users"></i>{{members}}</p>
-    <button #membershipStatus class="btn" [class]="status" (click)="changeStatus(membershipStatus)" >
-          <svg id="Icon_ionic-md-person-add" data-name="Icon ionic-md-person-add" xmlns="http://www.w3.org/2000/svg" width="24.466" height="17.716" viewBox="0 0 24.466 17.716">
-              <path id="Path_6" data-name="Path 6" d="M16.733,13.358A4.429,4.429,0,1,0,12.3,8.929,4.442,4.442,0,0,0,16.733,13.358Zm0,2.214c-2.934,0-8.858,1.495-8.858,4.429v2.214H25.591V20C25.591,17.067,19.667,15.572,16.733,15.572Z" transform="translate(-1.125 -4.5)" fill="#fff"/>
-              <path id="Path_7" data-name="Path 7" d="M7.875,14.846v-3.6H5.625v3.6h-4.5v1.8h4.5v3.6h2.25v-3.6h4.5v-1.8Z" transform="translate(-1.125 -6.596)" fill="#fff"/>
-          </svg>
-            {{status}}
+    <button #membershipStatus class="btn" [class]="status" (click)="changeStatus(membershipStatus)">
+        <i class="bi" [class]="svgClass"></i>
+        {{status}}
     </button>
   </div>
 </div>

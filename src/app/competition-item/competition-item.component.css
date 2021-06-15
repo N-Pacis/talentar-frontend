@@ -1,8 +1,10 @@
 .card{
-  width:20%;
+  width:100% !important;
   background-color: rgba(42, 38, 38, 0.42);
   border-radius: 8px;
   margin-left: 2% !important;
+  min-height: 200px !important;
+
   padding-left: 0 !important;
 
 }
@@ -38,14 +40,31 @@
   padding: 2% 7% !important;
   margin-left: 30% !important;
   color:#fff;
+  display: flex;
   margin-top: 2% !important;
   margin-bottom: 2% !important;
+  outline: none !important;
+  box-shadow: none !important;
 }
 .Join{
    background-color:#396D14;
 }
+.Pending{
+   background-color: rgba(57, 109, 20, 0.63);
+}
+.Member{
+   background-color: #2a6607;
+}
 
-.card-body>button>svg{
-    height: 12px;
-    margin-top: -7% !important;
+.card-body>button>i{
+  height: 12px;
+  margin-top: 0% !important;
+  margin-right: 10% !important;
+}
+.card-body>button>.fas,.card-body>button>.far{
+  font-size: 13px;
+  margin-top: 8% !important;
+}
+.card-img-top{
+  height: 200px !important;
 }

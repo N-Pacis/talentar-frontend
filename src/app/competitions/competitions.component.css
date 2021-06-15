@@ -1,0 +1,10 @@
+competition-item{
+  width:30% !important;
+  margin: 1% !important;
+}
+.competitions{
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  margin-top: -2% !important;
+}

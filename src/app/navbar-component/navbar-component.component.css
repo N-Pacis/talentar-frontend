@@ -1,6 +1,11 @@
 .nav{
   margin: 0 !important;
   padding: 0 !important;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: #121212;
+  height: auto;
 }
 .top-bar{
   display: flex;
@@ -8,11 +13,12 @@
 }
 .app-description{
   width: 10%;
-  margin-top: -2% !important;
+  margin-top: -1% !important;
 }
 
 .input-group{
   width: 20%;
+  margin-top: 2% !important;
   margin-left: 29% !important;
 }
 .input-group>input{
@@ -63,6 +69,7 @@
 }
 .low-bar{
   display: flex;
+  margin-bottom: 1% !important;
   width: 100% !important;
 }
 .low-bar>ul{
