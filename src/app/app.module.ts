@@ -6,12 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CompetitionsComponent } from './competitions/competitions.component';
 import { NavbarComponentComponent } from './navbar-component/navbar-component.component';
+import { CompetitionItemComponent } from './competition-item/competition-item.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CompetitionsComponent,
-    NavbarComponentComponent
+    NavbarComponentComponent,
+    CompetitionItemComponent
   ],
   imports: [
     BrowserModule,
@@ -20,7 +22,8 @@ import { NavbarComponentComponent } from './navbar-component/navbar-component.co
       {
         path:'competitions',
         component: CompetitionsComponent
-      }])
+      }
+      ])
   ],
   providers: [],
   bootstrap: [AppComponent]
