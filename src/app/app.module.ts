@@ -10,6 +10,11 @@ import { NavbarComponentComponent } from './components/navbar-component/navbar-c
 import { AllpageComponent } from './components/allpage/allpage.component';
 import { CompetitionStatsPanelComponent } from './components/COMPETITION/competition-stats-panel/competition-stats-panel.component';
 import { TopCompetitorsComponent } from './components/COMPETITION/top-competitors/top-competitors.component';
+import { PhotographyComponent } from './components/photography/photography.component';
+import { ArtComponent } from './components/art/art.component';
+import { DesignComponent } from './components/design/design.component';
+import { SingingComponent } from './components/singing/singing.component';
+import { PostcardComponent } from './components/postcard/postcard.component';
 
 @NgModule({
   declarations: [
@@ -19,21 +24,42 @@ import { TopCompetitorsComponent } from './components/COMPETITION/top-competitor
     CompetitionItemComponent,
     AllpageComponent,
     CompetitionStatsPanelComponent,
-    TopCompetitorsComponent
+    TopCompetitorsComponent,
+    PhotographyComponent,
+    ArtComponent,
+    DesignComponent,
+    SingingComponent,
+    PostcardComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     RouterModule.forRoot([
       {
-        path:'competitions',
+        path: 'competitions',
         component: CompetitionsComponent
       },
       {
         path:'all',
         component: AllpageComponent
-      }
-      ])
+      },
+      {
+        path: 'photography',
+        component: PhotographyComponent
+      },
+      {
+        path: 'art',
+        component: ArtComponent
+      },
+      {
+        path: 'design',
+        component: DesignComponent
+      },
+      {
+        path: 'singing',
+        component: SingingComponent
+      },
+    ])
   ],
   providers: [],
   bootstrap: [AppComponent]
