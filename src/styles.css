@@ -39,9 +39,12 @@ a{
 
   *::-webkit-scrollbar-thumb:hover {
     background-color: #66656557;
+<<<<<<< HEAD
   }
 
   button{
     outline: none !important;
     box-shadow: none !important;
+=======
+>>>>>>> 7e3ef624b428f7e39ae4bdc147e45cfd56e8c1be
   }

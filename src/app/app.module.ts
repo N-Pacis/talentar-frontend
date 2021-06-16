@@ -8,8 +8,11 @@ import { CompetitionsComponent } from './components/COMPETITION/competitions/com
 import {CompetitionItemComponent} from './components/COMPETITION/competition-item/competition-item.component';
 import { NavbarComponentComponent } from './components/navbar-component/navbar-component.component';
 import { AllpageComponent } from './components/allpage/allpage.component';
+<<<<<<< HEAD
 import { CompetitionStatsPanelComponent } from './components/COMPETITION/competition-stats-panel/competition-stats-panel.component';
 import { TopCompetitorsComponent } from './components/COMPETITION/top-competitors/top-competitors.component';
+=======
+>>>>>>> 7e3ef624b428f7e39ae4bdc147e45cfd56e8c1be
 import { PhotographyComponent } from './components/photography/photography.component';
 import { ArtComponent } from './components/art/art.component';
 import { DesignComponent } from './components/design/design.component';
@@ -21,10 +24,14 @@ import { PostcardComponent } from './components/postcard/postcard.component';
     AppComponent,
     CompetitionsComponent,
     NavbarComponentComponent,
+<<<<<<< HEAD
     CompetitionItemComponent,
     AllpageComponent,
     CompetitionStatsPanelComponent,
     TopCompetitorsComponent,
+=======
+    AllpageComponent,
+>>>>>>> 7e3ef624b428f7e39ae4bdc147e45cfd56e8c1be
     PhotographyComponent,
     ArtComponent,
     DesignComponent,
@@ -40,7 +47,11 @@ import { PostcardComponent } from './components/postcard/postcard.component';
         component: CompetitionsComponent
       },
       {
+<<<<<<< HEAD
         path:'all',
+=======
+        path: 'all',
+>>>>>>> 7e3ef624b428f7e39ae4bdc147e45cfd56e8c1be
         component: AllpageComponent
       },
       {
