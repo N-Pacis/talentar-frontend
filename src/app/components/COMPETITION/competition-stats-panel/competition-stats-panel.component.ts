@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-competition-stats-panel',
+  selector: 'competition-stats-panel',
   templateUrl: './competition-stats-panel.component.html',
   styleUrls: ['./competition-stats-panel.component.css']
 })

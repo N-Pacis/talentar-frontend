@@ -21,6 +21,9 @@ import { CommentsComponent } from './components/comments/comments.component';
   declarations: [
     AppComponent,
     CompetitionsComponent,
+    CompetitionItemComponent,
+    CompetitionStatsPanelComponent,
+    TopCompetitorsComponent,
     NavbarComponentComponent,
     AllpageComponent,
     PhotographyComponent,
