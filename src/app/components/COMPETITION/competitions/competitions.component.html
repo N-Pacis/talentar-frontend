@@ -1,10 +1,12 @@
-<div class="competitions">
-    <competition-item
-      *ngFor = "let competition of competitions"
-       competitionName = {{competition.competitionName}}
-       competitionImage = {{competition.competitionImage}}
-       members ={{competition.members}}
-       status= {{competition.status}}
-    ></competition-item>
+<div class="competition-page">
+  <div class="competitions">
+      <competition-item
+        *ngFor = "let competition of competitions"
+         competitionName = {{competition.competitionName}}
+         competitionImage = {{competition.competitionImage}}
+         members ={{competition.members}}
+         status= {{competition.status}}
+      ></competition-item>
+  </div>
+  <competition-stats-panel></competition-stats-panel>
 </div>
-

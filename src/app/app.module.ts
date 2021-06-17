@@ -20,6 +20,9 @@ import { PostcardComponent } from './components/postcard/postcard.component';
   declarations: [
     AppComponent,
     CompetitionsComponent,
+    CompetitionItemComponent,
+    CompetitionStatsPanelComponent,
+    TopCompetitorsComponent,
     NavbarComponentComponent,
     AllpageComponent,
     PhotographyComponent,
