@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {Competition} from '../../../services/competition';
-import {CompetitionService} from "../../../services/competition.service";
+import {CompetitionService} from '../../../services/competition.service';
 
 @Component({
   selector: 'app-competitions',
@@ -8,8 +8,8 @@ import {CompetitionService} from "../../../services/competition.service";
   styleUrls: ['./competitions.component.css']
 })
 export class CompetitionsComponent implements OnInit {
-  competitions:Competition[]|undefined;
-  CompetitionService:any;
+  competitions: Competition[]|undefined;
+  CompetitionService: any;
 
   constructor() {
     this.CompetitionService = new CompetitionService();

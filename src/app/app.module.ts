@@ -15,6 +15,7 @@ import { ArtComponent } from './components/art/art.component';
 import { DesignComponent } from './components/design/design.component';
 import { SingingComponent } from './components/singing/singing.component';
 import { PostcardComponent } from './components/postcard/postcard.component';
+import { CommentsComponent } from './components/comments/comments.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { PostcardComponent } from './components/postcard/postcard.component';
     ArtComponent,
     DesignComponent,
     SingingComponent,
-    PostcardComponent
+    PostcardComponent,
+    CommentsComponent
   ],
   imports: [
     BrowserModule,
