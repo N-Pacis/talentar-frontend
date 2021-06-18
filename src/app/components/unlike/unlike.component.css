@@ -1,0 +1,8 @@
+.defaultunliked {
+    cursor: pointer;
+    color: gray;
+    font-size: 2em;
+}
+.highlighted{
+    color: green !important;
+}

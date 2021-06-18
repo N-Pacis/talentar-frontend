@@ -1,11 +1,18 @@
-postcard{
-    width:30% !important;
-    margin: 1% !important;
-  }
-  .posts{
+.allpage h1{
+  color: var(--mainGreen);
+  font-size: 1.2em;
+  margin-left: 2% !important;
+  margin-top: 2% !important;
+  margin-bottom: 2% !important;
+}
+.posts{
     display: flex;
     flex-wrap: wrap;
-    width: 70%;
-    margin-top: -2% !important;
-  }
-  
+    justify-content: space-between;
+    width: 97%;
+    padding-right: 1.25rem !important;
+}
+postcard{
+  width:31% !important;
+  margin-right: 1% !important;
+}  

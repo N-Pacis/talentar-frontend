@@ -16,6 +16,8 @@ import { DesignComponent } from './components/design/design.component';
 import { SingingComponent } from './components/singing/singing.component';
 import { PostcardComponent } from './components/postcard/postcard.component';
 import { CommentsComponent } from './components/comments/comments.component';
+import { LikeComponent } from './components/like/like.component';
+import { UnlikeComponent } from './components/unlike/unlike.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { CommentsComponent } from './components/comments/comments.component';
     DesignComponent,
     SingingComponent,
     PostcardComponent,
-    CommentsComponent
+    CommentsComponent,
+    LikeComponent,
+    UnlikeComponent
   ],
   imports: [
     BrowserModule,

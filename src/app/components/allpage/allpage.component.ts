@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {Allpage} from '../../services/allpage';
-import {AllpageService} from '../../services/allpage.service';
+import { Allpage } from '../../services/allpage';
+import { AllpageService } from '../../services/allpage.service';
 
 @Component({
   selector: 'app-allpage',
@@ -8,13 +8,13 @@ import {AllpageService} from '../../services/allpage.service';
   styleUrls: ['./allpage.component.css']
 })
 export class AllpageComponent implements OnInit {
-  allpage: Allpage[]|undefined;
+  allpage: Allpage[] | undefined;
   AllpageService: any;
 
   constructor() {
     this.AllpageService = new AllpageService();
     this.allpage = this.AllpageService.getAllpage();
-   }
+  }
 
   ngOnInit(): void {
   }

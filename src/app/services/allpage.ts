@@ -1,6 +1,6 @@
 export class Allpage{
 
-    constructor(postimg: string, username: string, likes: number, unlikes: number, profilepic: string) {
+    constructor(postimg: string, username: string, likes: string, unlikes: string, profilepic: string) {
       this.postimg = postimg;
       this.username = username;
       this.likes = likes;
@@ -10,7 +10,7 @@ export class Allpage{
 
     postimg: string;
     username: string;
-    likes: number;
-    unlikes: number;
+    likes: string;
+    unlikes: string;
     profilepic: string;
   }
