@@ -1,3 +1,13 @@
 <div class="top-competitors-container">
-  <h2 class="top-competitors-heading">Top Competitors Of all time</h2>
+  <h2 class="top-competitors-heading">Top competitors of all time</h2>
+  <ol class="top-competitors-list">
+    <li *ngFor="let topCompetitor of topCompetitors;let i=index" class="top-competitors-list-item">
+      <h3>{{i + 1}}.</h3>
+      <img src={{topCompetitor.competitorImage}} alt={{topCompetitor.competitorName}} >
+      <div class="top-competitor-description">
+        <h2>{{topCompetitor.competitorName}}</h2>
+        <p>won {{topCompetitor.competitionsWon}} competitions</p>
+      </div>
+    </li>
+  </ol>
 </div>

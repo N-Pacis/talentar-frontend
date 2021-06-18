@@ -18,6 +18,7 @@ import { PostcardComponent } from './components/postcard/postcard.component';
 import { CommentsComponent } from './components/comments/comments.component';
 import { LikeComponent } from './components/like/like.component';
 import { UnlikeComponent } from './components/unlike/unlike.component';
+import { TrendingCompetitionsComponent } from './components/COMPETITION/trending-competitions/trending-competitions.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { UnlikeComponent } from './components/unlike/unlike.component';
     PostcardComponent,
     CommentsComponent,
     LikeComponent,
-    UnlikeComponent
+    UnlikeComponent,
+    TrendingCompetitionsComponent
   ],
   imports: [
     BrowserModule,
