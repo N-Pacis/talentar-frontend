@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import {TopCompetitor} from './topCompetitors';
+import {TrendingCompetition} from './trendingCompetitions'
 
 @Injectable({
   providedIn: 'root'
@@ -16,5 +17,14 @@ export class CompetitionStatsService {
       new TopCompetitor('https://tricksmaze.org/wp-content/uploads/2017/04/Stylish-Girls-Profile-Pictures-6.jpg','Sasha Dane','4'),
     ]
     return topCompetitors
+  }
+
+  public getTrendingCompetitions(){
+    let trendingCompetitions:TrendingCompetition[];
+
+    trendingCompetitions = [
+      new TrendingCompetition('https://media.istockphoto.com/vectors/hand-holding-retro-mic-microphone-in-front-of-huge-crowd-vector-id546015598?k=6&m=546015598&s=612x612&w=0&h=BdNCzrBTEJ8nMGP0X81LNh5qtFkQgftUfkZRR7OTaMQ=',"Singing Competition","2000"),
+      new TrendingCompetition('https://wallpaperaccess.com/full/782147.jpg',"Deejay Competition","1500"),
+    ]
   }
 }

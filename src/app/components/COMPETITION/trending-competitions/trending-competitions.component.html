@@ -1,1 +1,13 @@
-<p>trending-competitions works!</p>
+<div class="trending-competition-container">
+  <h2 class="trending-competition-heading">Trending competitions now</h2>
+  <ol class="trending-competition-list">
+    <li *ngFor="let trendingCompetition of trendingCompetitions;let i=index" class="trending-competition-list-item">
+      <h3>{{i + 1}}.</h3>
+      <img src={{trendingCompetition.competitionImage}} alt={{trendingCompetition.competitionName}} >
+      <div class="trending-competition-description">
+        <h2>{{trendingCompetition.competitionName}}</h2>
+        <p>Over {{trendingCompetition.competitionMembers}} members</p>
+      </div>
+    </li>
+  </ol>
+</div>

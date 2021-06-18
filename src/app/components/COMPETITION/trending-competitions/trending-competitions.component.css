@@ -1,0 +1,52 @@
+.trending-competition-container{
+  border-radius: 13px;
+  background-color: #1C1A1A;
+  width: 90%;
+  height: auto;
+  margin-left: -20% !important;
+  margin-top: 5% !important;
+  padding-top: 3% !important;
+}
+.trending-competition-heading{
+  font-size: 18px;
+  text-align: center;
+  color: #46A701;
+  font-weight: bold;
+}
+.trending-competition-list{
+  width: 100%;
+  padding: 1% !important;
+
+}
+.trending-competition-list-item{
+  display: flex;
+  color: var(--mainGreen);
+  margin: 2.5% 0% !important;
+}
+.trending-competition-list-item>img{
+  width: 15% !important;
+  object-fit: cover;
+  height: 45px !important;
+  border-radius: 100% !important;
+}
+.trending-competition-list-item>h3{
+  font-size: 20px;
+  margin-top: 2.5% !important;
+  margin-right: 2% !important;
+}
+.trending-competition-description{
+  margin-left: 2% !important;
+}
+.trending-competition-description>h2{
+  font-size: 17px;
+  font-weight: 500;
+  color: #fff;
+  white-space: nowrap;
+}
+.trending-competition-description>p{
+  font-family: Manrope;
+  font-size: 12px;
+  color: #B5B5B5;
+  white-space: nowrap;
+}
+
