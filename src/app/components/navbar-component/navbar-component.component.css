@@ -1,11 +1,12 @@
 .nav{
   margin: 0 !important;
   padding: 0 !important;
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 2;
   background-color: #121212;
   height: auto;
+  padding-top: 1% !important;
 }
 .top-bar{
   display: flex;
@@ -50,6 +51,7 @@
   height: 45px;
   width: 28%;
   border: none;
+  background:transparent;
   padding: 0 !important;
   margin: 0 !important;
   outline: none;
@@ -110,7 +112,7 @@
   background-color:#171717;
   border-radius: 7px;
   position: absolute;
-  top: 50px;
+  top: 57px;
   width: 10%;
   padding: 0.5% 0% !important;
 }

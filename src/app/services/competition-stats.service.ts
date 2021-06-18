@@ -5,6 +5,7 @@ import {TrendingCompetition} from './trendingCompetitions'
 @Injectable({
   providedIn: 'root'
 })
+// @ts-ignore
 export class CompetitionStatsService {
   public getTopCompetitors(){
     let topCompetitors:TopCompetitor[];
@@ -26,5 +27,6 @@ export class CompetitionStatsService {
       new TrendingCompetition('https://media.istockphoto.com/vectors/hand-holding-retro-mic-microphone-in-front-of-huge-crowd-vector-id546015598?k=6&m=546015598&s=612x612&w=0&h=BdNCzrBTEJ8nMGP0X81LNh5qtFkQgftUfkZRR7OTaMQ=',"Singing Competition","2000"),
       new TrendingCompetition('https://wallpaperaccess.com/full/782147.jpg',"Deejay Competition","1500"),
     ]
+    return trendingCompetitions
   }
 }

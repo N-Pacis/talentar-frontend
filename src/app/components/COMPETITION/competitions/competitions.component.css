@@ -6,10 +6,11 @@ competition-item{
     display: flex;
     flex-wrap: wrap;
     width: 70%;
-    margin-top: -2% !important;
+    margin-top: -2.5% !important;
 
   }
   .competition-page{
     display: flex;
+    margin-top: 10% !important;
     width: 95%;
   }
