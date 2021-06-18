@@ -2,7 +2,7 @@
   <h2 class="top-competitors-heading">Top competitors of all time</h2>
   <ol class="top-competitors-list">
     <li *ngFor="let topCompetitor of topCompetitors;let i=index" class="top-competitors-list-item">
-      <h2>{{index}}</h2>
+      <h3>{{i + 1}}.</h3>
       <img src={{topCompetitor.competitorImage}} alt={{topCompetitor.competitorName}} >
       <div class="top-competitor-description">
         <h2>{{topCompetitor.competitorName}}</h2>

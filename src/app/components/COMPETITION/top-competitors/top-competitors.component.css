@@ -26,8 +26,13 @@
 .top-competitors-list-item>img{
   width: 15% !important;
   object-fit: cover;
-  height: 50px !important;
+  height: 45px !important;
   border-radius: 100% !important;
+}
+.top-competitors-list-item>h3{
+  font-size: 20px;
+  margin-top: 2.5% !important;
+  margin-right: 2% !important;
 }
 .top-competitor-description{
   margin-left: 2% !important;
