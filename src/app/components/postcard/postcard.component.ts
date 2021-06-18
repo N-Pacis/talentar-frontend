@@ -24,8 +24,8 @@ export class PostcardComponent implements OnInit {
     reaction = {
     // likes: this.likes,
     // likes: this.unlikes,
-    likes: 0,
-    unlikes: 0,
+    likes: 1020,
+    unlikes: 660,
     isLiked: false,
     isUnliked: false
   };
