@@ -1,0 +1,11 @@
+p{
+    margin-top: 0.25rem !important;
+}
+.defaultunliked {
+    cursor: pointer;
+    color: gray;
+    font-size: 2em;
+}
+.highlighted{
+    color: green !important;
+}

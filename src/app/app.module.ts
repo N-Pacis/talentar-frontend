@@ -15,6 +15,9 @@ import { ArtComponent } from './components/art/art.component';
 import { DesignComponent } from './components/design/design.component';
 import { SingingComponent } from './components/singing/singing.component';
 import { PostcardComponent } from './components/postcard/postcard.component';
+import { CommentsComponent } from './components/comments/comments.component';
+import { LikeComponent } from './components/like/like.component';
+import { UnlikeComponent } from './components/unlike/unlike.component';
 import { TrendingCompetitionsComponent } from './components/COMPETITION/trending-competitions/trending-competitions.component';
 
 @NgModule({
@@ -31,6 +34,9 @@ import { TrendingCompetitionsComponent } from './components/COMPETITION/trending
     DesignComponent,
     SingingComponent,
     PostcardComponent,
+    CommentsComponent,
+    LikeComponent,
+    UnlikeComponent,
     TrendingCompetitionsComponent
   ],
   imports: [

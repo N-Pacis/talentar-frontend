@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+.card{
+    width:100% !important;
+    background-color: rgba(42, 38, 38, 0.42);
+    border-radius: 8px;
+    margin-left: 2% !important;
+    min-height: 15rem !important;
+    padding-left: 0 !important;
+  }
+  .card>img{
+    border-radius: 8px;
+    width: 98%;
+    margin: 1% 0 !important;
+  }
+  .user>img{
+    width: 55%;
+    height: 2.19rem;
+    border-radius: 50%;
+    margin-left: 20% !important;
+  }
+  .card-body{
+    display: flex;
+    justify-content: flex-start !important;
+    margin: 1% 0 !important;
+  }
+  .user{
+    width: 20%;
+    height: 80%;
+  }
+  .user h5{
+    color: #E4E4E4;
+    font-family:Segoe UI;
+    text-align: center;
+    font-size: 12px;
+  }
+  like,unlike{
+    color: #E4E4E4;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+  }

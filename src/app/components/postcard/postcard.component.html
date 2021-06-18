@@ -1,1 +1,12 @@
-<p>postcard works!</p>
+<div class="card">
+    <img class="card-img-top" [src]="postimg" [alt]="">
+    <div class="card-body">
+      <div class="user">
+      <img class="card-img-top" [src]="profilepic" [alt]="">
+      <h5 class="card-title">{{username}}</h5>
+      </div>
+      <like [likes]="reaction.likes" [isLiked]="reaction.isLiked"></like>
+      <unlike [unlikes]="reaction.unlikes" [isUnliked]="reaction.isUnliked"></unlike>
+    </div>
+  </div>
+  
