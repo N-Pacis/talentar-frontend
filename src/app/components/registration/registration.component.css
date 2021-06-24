@@ -1,0 +1,55 @@
+.nav{
+    margin: 0 !important;
+    padding: 0 !important;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: #121212;
+    /* background-color: red; */
+    height: auto;
+  }
+  p{
+      color: #B5B2B2;
+  }
+  .top-bar{
+    display: flex;
+    width: 100% !important;
+  }
+  .app-name{    
+  color: var(--mainGreen);
+  font-family: 'OPTILibertyFoundry';
+  text-align: center;
+  }
+  .form-control{
+      background-color: #222222;
+      color:#B5B2B2;
+      border: none;
+      height: 37px;
+      border-radius: 5px;
+  }
+  form{
+      background-color: #161616;
+      width: 45%;
+      height: 50vh;
+      border-radius:5px;
+      margin: 0px 0px 0px 400px;
+  }
+  .btn{
+      background-color: #396D14;
+      width:190px;
+      height: 6vh;
+      margin-left: 40px;
+     padding: 20px;
+  }
+  label{
+      color:#B5B2B2;
+  }
+  .row{
+      display: flex;
+  }
+ .form-group{
+     width: 40%;
+ }
+ .row>.form-group{
+     padding: 20px;
+ }
