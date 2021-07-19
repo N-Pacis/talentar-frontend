@@ -27,7 +27,7 @@
   padding-left: 8% !important;
 }
 
-.app-name{
+.app-name a{
    color: var(--mainGreen);
   font-family: 'o','O PTILibertyFoundry';
   font-size:60px;

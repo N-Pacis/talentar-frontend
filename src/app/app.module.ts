@@ -19,6 +19,8 @@ import { CommentsComponent } from './components/comments/comments.component';
 import { LikeComponent } from './components/like/like.component';
 import { UnlikeComponent } from './components/unlike/unlike.component';
 import { TrendingCompetitionsComponent } from './components/COMPETITION/trending-competitions/trending-competitions.component';
+import { RegistrationComponent } from './components/registration/registration.component';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -37,12 +39,19 @@ import { TrendingCompetitionsComponent } from './components/COMPETITION/trending
     CommentsComponent,
     LikeComponent,
     UnlikeComponent,
-    TrendingCompetitionsComponent
+    TrendingCompetitionsComponent,
+    RegistrationComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     RouterModule.forRoot([
+      {
+        path:'',
+        redirectTo: '/login',
+        pathMatch: 'full'
+      },
       {
         path: 'competitions',
         component: CompetitionsComponent
@@ -67,6 +76,14 @@ import { TrendingCompetitionsComponent } from './components/COMPETITION/trending
         path: 'singing',
         component: SingingComponent
       },
+      {
+        path:'register',
+        component:RegistrationComponent
+      },
+      {
+        path:'login',
+        component: LoginComponent
+      }
     ])
   ],
   providers: [],
